@@ -1,8 +1,8 @@
-x=int(input("1"))
-y=int(input("2"))
-z=int(input("3"))
-a=int(input("4"))
-if z==x+1 and a==y+0 or z==x-1 and a==y-0 or z==x+1 and a==y+1 or z==x-1 and a==y-1or z==x-0 and a==y-1:
+x1=int(input("1"))
+y1=int(input('2'))
+x2=int(input("3"))
+y2=int(input("4"))
+if x2==x1+2 and y2==y1+1 or x2==x1+2 and y2==y1-1 or x2==x1-2 and y2==y1-1 or x2==x1-2 and y2==y1+1 or x2==x1+1 and y2==y1+2 or x2==x1-1 and y2==y1+2:
     print("yes")
 else:
     print("no")
